@@ -30,4 +30,10 @@ public class MessageController {
         String message = userFeignClient.getMessage1("!1111");
         return message;
     }
+
+    @GetMapping("/get1")
+    public String getUsersFirst11() {
+        String message = userFeignClient.getMessage1("!1111");
+        return message;
+    }
 }
